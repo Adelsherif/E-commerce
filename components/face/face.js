@@ -15,7 +15,7 @@ export default function Face() {
                   <Image src={require('./main-image.png')} className="d-block w-100" alt="image"/>
                                 <div className="carousel-caption d-none d-md-block" id={Styles.carouselcaption}>
                                   <h5>Big Sale Offer</h5>
-                                  <h1>Get the Best Deal on CCTV Camera</h1>
+                                  <h1>Get the Best Deal on Smart Watches</h1>
                                   <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
                                   <p>Now Only : $320.99</p>
                                   <a href="#products">Shop Now</a>
@@ -25,7 +25,7 @@ export default function Face() {
                   <Image src={require('./watch.jpg')} className="d-block w-100" alt="image"/>
                                 <div className="carousel-caption d-none d-md-block" id={Styles.carouselcaption}>
                                   <h5>Big Sale Offer</h5>
-                                  <h1>Get the Best Deal on CCTV Camera</h1>
+                                  <h1>Get the Best Deal on Smart Watches</h1>
                                   <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
                                   <p>Now Only : $320.99</p>
                                   <a href="#products">Shop Now</a>

@@ -6,7 +6,7 @@ export default function Loader() {
     useEffect(()=>{
        setTimeout(() => {
                 setloader(0)
-          }, 3000);
+          }, 2000);
     })
   return (
     loader === 1 ?(
