@@ -1,0 +1,265 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.header .upbtn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 111;
+    transition: all 1s ease-in-out;
+}
+.header .upbtn button{
+    border: none;
+    font-size: 18px;
+    background-color: var(--blue);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+}
+.header .inner{
+    display: flex;
+    justify-content: space-between;
+}
+.header .head{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 100px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    background-color: #081828;
+    color: white;
+}
+.header .head .inner{align-items: center;}
+.header .head .logo p{
+    font-size: 22px;
+    font-weight: bold;
+}
+.header .head .mainlinks{ width: 15%;}
+.header .head .mainlinks ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header .head  ul a{color: white;}
+.header .head .register{width: 15%;}
+.header .head .register ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header .head .register ul li:first-of-type{
+    border-right: 1px solid gray;
+    padding-right: 8px;
+}
+.header .info{
+    width: 100%;
+    padding: 20px 100px;
+    border-bottom: .5px solid rgb(252, 251, 251) ;
+}
+.header .info .inner{
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header .info .section{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .info .search{
+    width: 70%;
+    box-sizing: border-box;
+}
+.header .info .search form input{
+    width: 80%;
+    padding: 8px 20px;
+    background-color: white;
+    border: 1px solid rgb(225, 217, 217) ;
+    outline: none;
+}
+.header .info .search form button{
+    padding: 9px 15px;
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.header .info .phone{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .info .phone .icon{
+    font-size: 19px;
+    border: 1px solid rgb(225, 217, 217) ;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.header .info .car{
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+.header .info .car .hicon{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid rgb(225, 217, 217) ;
+}
+.header .info .car .hicon span{
+    position: absolute;
+    top:-8px;
+    right: 0;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .links{
+    position: relative;
+    width: 100%;
+    padding: 20px 100px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    border: 1px solid rgb(236, 232, 232) ;
+}
+.header .links .bars{
+    display: none;
+    font-size: 40px;
+    margin-top: -5px;
+}
+.header .links .categories{
+    width: 20%;
+    z-index: 22;
+}
+.header .links .categories .caticon{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    flex-direction: column;
+}
+.header .links .categories .caticon p{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.header .links .categories .caticon .icon{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.header .links .catlinks{
+    width: 10%;
+ position: absolute;
+    top:60px;
+    line-height: 2.5;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px 30px 10px 20px;
+    transition: all .6s;
+   display: none;
+}
+.header .links .catlinks ul a{color: black;}
+.header .links .innerlinks{width: 30%;}
+.header .links .innerlinks ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header .links .innerlinks ul a{
+    color: black;
+    font-size: 15px;
+}
+.header .links .innerlinks ul a:active:hover{color: var(--blue);}
+.header .links .social{
+    width: 30%;
+    display: flex;
+}
+.header .links .social p{
+    width: 35%;
+    font-size: 16px;
+}
+.header .links .social ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    color: gray;
+}
+@media (max-width:992px){
+    .header .head .register{width: 30%;}
+    .header .head .mainlinks{display: none;}
+    .header .info .name,.car{width: 50%;}
+    .header .info .section{
+    order: 3;
+    width: 100%;
+    margin-top: 20px;
+}
+.header .info .search{
+    text-align: center;
+    width: 100%;
+}
+.header .info .phone{display: none;}
+.header .links .categories{width: 25%;}
+.header .links .catlinks{width: 50%;}
+.header .links .innerlinks{width: 35%;}
+.header .links .social {width: 35%;}
+.header .links{
+    padding-left: 10px !important;
+    padding-right: 20px !important;
+   }
+}
+@media (max-width:768px){
+    .header .head{
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .header .head .register{width: 50%;}
+    .header .info{
+    width: 100%;
+    padding-left: 0 ;
+    padding-right: 0;
+    justify-content: space-between;
+    }
+    .header .info .name .car{width: 50% !important;}
+    .header .info .name{width: 40%;}
+    .header .info .car{width: 30% !important;}
+    .header .links .categories{width: 18%;}
+    .header .links .categories .icon{
+    width: 100% !important;
+    font-size: 30px !important;
+    }
+    .header .links .categories span{display: none;}
+    .header .links .social p{display: none;}
+    .header .links .innerlinks ul{
+        flex-direction: column;
+        line-height: 3;
+        background-color: white;
+        padding-left: 30px;
+    }
+    .header .content{display: none;}
+    .header .links .bars{display: block;}
+    .header .links .social{
+        width: 40%;
+        justify-content: space-between;
+    }
+    .header .links .social ul{width: 100%;}
+}
+.header .links .show{display: block;}
+.header .links .opacity{opacity: 1;}

@@ -1,0 +1,33 @@
+.section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section .inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section .inner .element{
+    width: 50%;
+    position: relative;
+    line-height: 2;
+}
+.section .inner .element .text{
+    width: 50%;
+    z-index: 33;
+    position: absolute;
+    top:50%;
+    left:10%;
+    transform: translateY(-50%);
+}
+.section .inner .element a{
+    background-color: var(--blue);
+    color: white;
+    padding: 10px 30px;
+}
+@media (max-width:992px){
+    .section .inner .element{
+        width: 100% !important;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }}

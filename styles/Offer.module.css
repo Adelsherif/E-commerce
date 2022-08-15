@@ -1,0 +1,87 @@
+.offer{
+    width: 100%;
+    margin-top: 60px;
+}
+.offer .inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.offer .section1{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.offer .section1 #parent{width: 100%;}
+.offer .section1 #child{width: 32%;}
+.offer .section1 .second{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 5px;
+    background-color: #3a86f877;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.offer .section1 .second .image{
+    width: 40%;
+    transform: rotateY(180deg);
+}
+.offer .section1 .second .text{
+    width: 35%;
+    line-height: 3;
+}
+.offer .text a{
+    background-color: var(--blue);
+    color: white;
+    padding: 12px 40px;
+    border-radius: 5px;
+}
+.offer .section2{
+    width: 30%;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    line-height: 3;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+.offer .section2 .image{
+    display: flex;
+    justify-content: center;
+}
+.offer .section2 .image + span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    margin: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offer .section2 .text{padding-left: 20px;}
+.offer .section2 .text h2 span{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+@media (max-width:992px){
+.offer .section1{width: 100%;}
+.offer .section1 #child{width: 48%;}
+.offer .section2{width: 100%;}
+}
+@media (max-width:768px){
+    .offer .section1 #child{width: 100%;}
+    .offer .section1 .second .image{width: 100%;}
+    .offer .section1 .second .text{width: 100%;}
+}

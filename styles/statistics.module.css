@@ -1,0 +1,38 @@
+.statistics{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.statistics .inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.statistics .inner .section{width: 25%;}
+.statistics .section .head{
+    width: 100%;
+    border-bottom: 1px solid rgb(231, 227, 227);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.statistics .section .head h5{font-weight: bold;}
+.statistics .inner .section .product{
+    display: flex;
+    align-items: center;
+    line-height: 3;
+}
+.statistics .inner .section .image{
+    width: 15%;
+    margin-right: 20px;
+}
+.statistics .inner .section .text{line-height: 1;}
+.statistics .inner .section .text h6{font-weight: bold;}
+.statistics .inner .section .text p{color: gray;}
+@media (max-width:992px){
+    .statistics .inner .section{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:768px){.statistics .inner .section{width: 100%;}}

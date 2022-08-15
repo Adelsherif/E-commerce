@@ -1,0 +1,40 @@
+.news{
+    width: 100%;
+    margin-top: 60px;
+}
+.news .inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.news .inner .section{
+    width: 32%;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    line-height: 2.5;
+    box-sizing: border-box;
+}
+.news .inner .section .image{overflow: hidden;}
+.news .inner .section .image:hover img{
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+.news .inner .section .text{padding-left: 20px;}
+.news .inner .section .text h6{color: gray;}
+.news .inner .section .text h4{font-weight: bolder;}
+.news .inner .section .text a{
+    border: 1px solid rgb(186, 182, 182);
+    color: rgb(39, 37, 37);
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.news .inner .section .text a:hover{
+    background-color: var(--blue);
+    color: white;
+    border: none;
+}
+@media (max-width:992px){.news .inner .section{width: 48%;}}
+@media (max-width:768px){.news .inner .section{width:100%;}}

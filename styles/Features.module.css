@@ -1,0 +1,28 @@
+.features{
+    width: 100%;
+    margin-top: 60px;
+}
+.features .inner .content{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 30px;
+}
+.features .inner .content .feature{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border: 1px solid rgb(232, 228, 228);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.features .inner .content .feature ul a{
+    color: rgb(170, 164, 164);
+    transition: .5s;
+}
+.features .inner .content .feature ul a:hover{margin-left: 5px;}
+.features .inner .content .feature .image{width: 40%;}
+@media (max-width:992px){.features .inner .content .feature{width: 45%;}}
+@media (max-width:768px){.features .inner .content .feature{width: 100%;}}

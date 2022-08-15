@@ -1,0 +1,16 @@
+.brands{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f9f9f9;
+}
+.brands .inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.brands .inner .image{width: 15%;}
+@media (max-width:992px){.brands .inner .image{width: 30%;}}
+@media (max-width:768px){.brands .inner .image{width: 50%;}}

@@ -1,0 +1,78 @@
+.contact .content{
+    width: 100%;
+    background-color: #f5f1f183;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contact .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contact .inner .information{
+    width: 30%;
+    border: 1px solid rgb(234, 229, 229);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 30px 30px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+.contact .inner .information .section{
+    line-height: 1;
+    margin-bottom: 40px;
+}
+.contact .inner .information .icon{
+    font-size: 25px;
+    color: var(--blue);
+    margin-bottom: 15px;
+}
+.contact .inner .form{
+    width: 68%;
+    border: 1px solid rgb(234, 229, 229);
+    line-height: 3;
+    padding: 30px 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #f9f9f9;
+}
+.contact .inner .form input{
+    width: 45%;
+    border: 1px solid rgb(234, 229, 229);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 5px 20px;
+    outline: none;
+}
+.contact .inner .form .textarea{
+    width: 95%;
+    height: 200px;
+    border: 1px solid rgb(234, 229, 229);
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding-left: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contact .inner .form button{
+    background-color: var(--blue);
+    color: white;
+    padding: 5px 30px;
+    border: none;
+    margin-left: 30px;
+}
+@media (max-width:992px){
+.contact .inner .information{width: 100%;}
+.contact .inner .form{width: 100%;}
+.contact .inner .form input{
+    width: 100%;
+    margin-left: 0;
+}
+.contact .inner .form .textarea{
+    width: 100%;
+    margin-left: 0;
+}
+}

@@ -1,0 +1,31 @@
+.fav .content{
+    width: 90%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.fav .content .favItem{
+    position: relative;
+    width: 22%;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    line-height: 3;
+    box-sizing: border-box;
+}
+.fav .favItem .icon{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+@media (max-width:992px){
+    .fav .content .favItem{width: 45%;}
+}
+@media (max-width:768px){
+    .fav .content .favItem{width: 100%;}
+}
