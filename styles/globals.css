@@ -20,13 +20,13 @@ ul{
 }
 .head{
   width: 50%;
-  line-height: 50px;
   margin: auto;
   text-align: center;
 }
  .head h1{
   font-weight: bold;
   position: relative;
+  margin-bottom: 30px;
 }
  .head h1::after{
   content: '';
@@ -38,6 +38,7 @@ ul{
   transform: translateX(-50%);
   bottom: -10px;
 }
+.head p{line-height: 2;}
 .content{
   width: 100%;
   display: flex;
