@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
     <>
   <Head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel='icon' href='./favicon.svg' />
+  <link rel='icon' href='https://raw.githubusercontent.com/Adelsherif/e-commerce/master/pages/favicon.svg' />
   <title>ShopGrid</title>
 </Head>
   <Script
