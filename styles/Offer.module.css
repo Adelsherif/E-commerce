@@ -13,7 +13,7 @@
     flex-direction: column;
 }
 .offer .section1 #parent{width: 100%;}
-.offer .section1 #child{width: 32%;}
+.offer .section1 #child{width: calc(100%/3 - 15px) !important;}
 .offer .section1 .second{
     width: 100%;
     display: flex;
