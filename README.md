@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <br />
 <h3><a href="https://e-commerce-five-psi.vercel.app/">Live</a></h3>
 
-<img src="https://raw.githubusercontent.com/Adelsherif/e-commerce/master/design.png" alt="image" /
+<img src="https://raw.githubusercontent.com/Adelsherif/e-commerce/master/design.png" alt="image" />
 
 ## Getting Started
 
